@@ -70,3 +70,45 @@ You first create a world in the game, you can set some parameters like how big t
 - You can also command your dwarfs, make different zones, kill other enimies
 
 - When your fortress dies, or you retire your fortress, you can go back as an adventurer and talk to your dwarfs
+
+# Design Document
+
+- All of the creatures will interact with one another as how they want
+
+### Design Guidelines
+
+- The design of the game will be simple, like the graphics but the inner working of the game should be considered complex
+
+### Game Design Definitions 
+
+- There is no criteria of victory here, because this game goes on indefinitely(I might be wrong here)
+
+- The player loses the game when all his dwarfs die and he loses his fortress
+
+- There are no levels in this game just a world map
+
+- The main focus of the gameplay is too make a fortress and able to manage dwarfs of your own
+
+### Game Flowchart
+
+- The menu will have a option called "Create a World", which will have different parameters with how the player wants the world to be like
+
+- The game creates a procedural generated world with different terrains, climates , vegetation , wildlife, etc.
+
+- After the world is created the player then has to select where he wants to put the fortress in the world
+
+- After he is taken to the world map with his dwarfs and you manage them
+
+- The player controls are keybinds
+
+- There is no winning(again I can be wrong here), losing just gives you a prompt of losing you go back to the home screen
+
+### Player Definition
+
+- The player is like a cheif or god in this game because he is able to various types of orders to the dwarfs
+
+# User Interface (UI)
+
+- The UI of the game is going to be ASCII style UI, because for such a complex game it is better to use ASCII or text like interface then we are able to add new features really easily 
+
+- We can later amp up the graphics later on
